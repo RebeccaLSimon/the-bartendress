@@ -11,17 +11,35 @@ ul li{
 	background-size: 100%;
 	background-position: center;
 }
+/*.bg_text{
+	font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+	font-size: 80px;
+	line-height: 1;
+	background-color: white;
+	font-style: normal;
+	font-variant: normal;
+	position: absolute;
+	margin: 20px;
+	padding: 20px;
+	height: 100px;
+	width: 506px;
+}
+*/
 .bg_text{
-	background-color: blue; /* For browsers that do not support gradients */
+	font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+	font-size: 80px;
+	line-height: 1;
+	font-style: normal;
+	font-variant: normal;
+	background-color: white;
+	background: -webkit-radial-gradient(rgba(255,255,255,1),rgba(255,255,255,0));
+  	background: -o-radial-gradient(rgba(255,255,255,1),rgba(255,255,255,0));
+  	background: -moz-radial-gradient(rgba(255,255,255,1),rgba(255,255,255,0));
+  	background: radial-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
 	position: absolute;
 	border-radius: 27px;
 	margin: 20px;
 	padding: 20px;
-
-	width: 300px;
-
-	background-color: -webkit-gradient(
-  		linear, left top, left bottom, from(rgba(50,50,50,0.8)),
-  		to(rgba(80,80,80,0.2)), color-stop(.5,#333333)
-);
+	height: 100px;
+	width: 506px;
 }
